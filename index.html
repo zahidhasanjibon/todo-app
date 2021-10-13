@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>TO-DO APP</h2>
+
+        <div class="inp">
+            <form id="form">
+                <label for="new-task">Add New Task</label>
+                <input type="text" id="new-task" autocomplete="off">
+                <input type="submit" id="addTaskBtn" value="Add Task">
+            </form>
+        </div>
+
+        <div class="listing">
+            <div class="todo-list box">
+                <h4 style="color:gray;padding-bottom:8px;margin-bottom:-10px; border-bottom:1px solid gray;">INCOMPLETE
+                    TASKS</h4>
+
+                <ul id="items">
+                    <li class="item"><input class="inpp" type="checkbox" value=""><label>Task Name1</label></li>
+
+                    <li class="item"><input class="inpp" type="checkbox" value=""><label>Task Name2</label></li>
+
+                    <li class="item"><input class="inpp" type="checkbox" value=""><label>Task Name3</label></li>
+
+
+                </ul>
+            </div>
+
+            <div class="complete-list box">
+                <h4 style="color:gray;padding-bottom:8px;margin-bottom:-10px; border-bottom:1px solid gray;">COMPLETED
+                    TASKS</h4>
+
+                <ul class="ul1">
+                    <li>Task name<button class="btn">Delete</button></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <script src="app.js">
+
+    </script>
+
+</body>
+
+</html>
